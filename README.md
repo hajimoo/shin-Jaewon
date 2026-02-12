@@ -1,27 +1,32 @@
 # Hi, I'm Shin-Jaewon 👋
 
-Junior developer focused on algorithmic problem solving and backend applications.
+Engineer focused on structural problem-solving, algorithmic thinking, and system-level design.
+
+I analyze recurring problems by identifying underlying patterns and building reusable solution frameworks.
+
 
 ---
 
 ## 🔹 Main Projects
 
 ### 📌 CNN-based Manufacturing Defect Detection
-CNN image classification project with recall-focused evaluation.
+Image classification system optimized for recall-sensitive defect detection environments.
 → https://github.com/hajimoo/cnn-manufacturing-defect
 
 ### 📌 Algorithm Study Notes
-Structured coding test preparation and algorithm templates.
+Structured coding test preparation with reusable solution patterns and complexity analysis.
 → https://github.com/hajimoo/algorithm-study
 
 ---
 
 ## 🔹 Current Focus
-- Coding test preparation 
-- Applied software engineer 
-- Building production-ready web systems (Next Step)
+Advanced algorithm problem solving
+
+Backend system design fundamentals
+
+Building production-ready web systems
 
 ---
 
 ## 🔹 Tech Stack
-Python | TensorFlow | AutoKeras | NumPy | Pandas | Git | GitHub
+Python | TensorFlow | NumPy | Pandas |Git | GitHub
