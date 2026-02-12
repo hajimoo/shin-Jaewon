@@ -1,4 +1,4 @@
-# Hi, I'm Shin-Jaewon 👋
+# Hi, I'm Shin-Jaewon 
 
 Engineer focused on structural problem-solving, algorithmic thinking, and system-level design.
 
