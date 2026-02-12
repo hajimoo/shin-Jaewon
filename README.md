@@ -7,19 +7,19 @@ I analyze recurring problems by identifying underlying patterns and building reu
 
 ---
 
-## 🔹 Main Projects
+##  Main Projects
 
-### 📌 CNN-based Manufacturing Defect Detection
+### CNN-based Manufacturing Defect Detection
 Image classification system optimized for recall-sensitive defect detection environments.
 → https://github.com/hajimoo/cnn-manufacturing-defect
 
-### 📌 Algorithm Study Notes
+### Algorithm Study Notes
 Structured coding test preparation with reusable solution patterns and complexity analysis.
 → https://github.com/hajimoo/algorithm-study
 
 ---
 
-## 🔹 Current Focus
+##  Current Focus
 Advanced algorithm problem solving
 
 Backend system design fundamentals
@@ -28,5 +28,5 @@ Building production-ready web systems
 
 ---
 
-## 🔹 Tech Stack
+## Tech Stack
 Python | TensorFlow | NumPy | Pandas |Git | GitHub
