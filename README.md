@@ -1,32 +1,34 @@
-# Hi, I'm Shin-Jaewon 
+Hi, I'm Shin Jaewon
+Engineer focused on building reliable backend systems and solving structural problems.
 
-Engineer focused on structural problem-solving, algorithmic thinking, and system-level design.
-
-I analyze recurring problems by identifying underlying patterns and building reusable solution frameworks.
-
+I approach problems by verifying assumptions, analyzing failure conditions, and designing solutions that remain stable in real operation.
 
 ---
 
-##  Main Projects
+## 🔹 Main Project
 
-### CNN-based Manufacturing Defect Detection
-Image classification system optimized for recall-sensitive defect detection environments.
-→ https://github.com/hajimoo/cnn-manufacturing-defect
-
-### Algorithm Study Notes
-Structured coding test preparation with reusable solution patterns and complexity analysis.
-→ https://github.com/hajimoo/algorithm-study
+**CNN-based Manufacturing Defect Detection**
+Recall-sensitive image classification project with reliability-focused evaluation.
+https://github.com/hajimoo/cnn-manufacturing-defect
 
 ---
 
-##  Current Focus
-Advanced algorithm problem solving
+## 🔹 Algorithm Study Notes
 
-Backend system design fundamentals
-
-Building production-ready web systems
+Reusable coding test solution patterns with structured complexity analysis.
+https://github.com/hajimoo/algorithm-study
 
 ---
 
-## Tech Stack
-Python | TensorFlow | NumPy | Pandas |Git | GitHub
+## 🔹 Current Focus
+
+* Backend fundamentals for stable web services
+* Logging and validation for system reliability
+* Practical algorithm problem solving
+
+---
+
+## 🔹 Tech Stack
+
+Python | TensorFlow | NumPy | Pandas | Git | GitHub
+
