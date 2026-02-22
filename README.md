@@ -13,12 +13,6 @@ https://github.com/hajimoo/cnn-manufacturing-defect
 
 ---
 
-## 🔹 Algorithm Study Notes
-
-Reusable coding test solution patterns with structured complexity analysis.
-https://github.com/hajimoo/algorithm-study
-
----
 
 ## 🔹 Current Focus
 
