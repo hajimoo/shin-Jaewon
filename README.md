@@ -18,7 +18,6 @@ https://github.com/hajimoo/cnn-manufacturing-defect
 
 * Backend fundamentals for stable web services
 * Logging and validation for system reliability
-* Practical algorithm problem solving
 
 ---
 
