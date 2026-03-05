@@ -1,40 +1,37 @@
-H# Hi, I'm Shin Jaewon
+# こんにちは、シン・ジェウォンです
 
-Engineer interested in building **reliable backend systems** and solving structural problems.
-
-I focus on understanding **why systems fail** and designing solutions that remain stable under real-world constraints.
-
----
-
-## Main Project
-
-### Manufacturing Defect Detection (Recall-first evaluation)
-
-A CNN-based image classification project that focuses on **reliability under severe class imbalance**.
-
-In manufacturing environments, missing a defective product is far more critical than misclassifying a normal one.  
-This project investigates how common evaluation metrics can become misleading and redesigns the evaluation strategy to prioritize **Recall**.
-
-Key ideas explored:
-
-- Reliability-focused model evaluation
-- Class imbalance analysis
-- Precision / Recall trade-offs
-- Confusion matrix and ROC-based validation
-
-Project Repository  
-https://github.com/hajimoo/cnn-manufacturing-defect
+信頼性の高いバックエンドシステムの構築と、構造的な問題の解決に関心を持つエンジニアです。  
+システムがなぜ失敗するのかを理解し、現実の制約のもとでも安定し続けるソリューションを設計することを大切にしています。
 
 ---
 
-## Current Focus
+## メインプロジェクト
 
-- Backend fundamentals for stable web services
-- Logging and validation for system reliability
-- Deploying ML models as backend services
+### 製造業における欠陥検出（再現率優先評価）
+
+深刻なクラス不均衡下での信頼性に焦点を当てた、CNNベースの画像分類プロジェクトです。
+
+製造現場では、欠陥品を見逃すことは正常品を誤分類することよりはるかに重大なリスクとなります。本プロジェクトでは、一般的な評価指標がいかに誤解を招くかを検証し、**再現率（Recall）**を優先した評価戦略を再設計しました。
+
+**主な検討内容：**
+
+- 信頼性を重視したモデル評価
+- クラス不均衡の分析
+- 適合率／再現率のトレードオフ
+- 混同行列およびROCに基づく検証
+
+**プロジェクトリポジトリ** ：[https://github.com/hajimoo/cnn-manufacturing-defect](https://github.com/hajimoo/cnn-manufacturing-defect)
 
 ---
 
-## Tech
+## 現在の取り組み
+
+- 安定したWebサービスのためのバックエンド基礎
+- システム信頼性向上のためのロギングとバリデーション
+- バックエンドサービスとしてのMLモデル展開
+
+---
+
+## 技術スタック
 
 Python • TensorFlow • NumPy • Pandas • Git
