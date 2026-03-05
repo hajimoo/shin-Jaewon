@@ -1,27 +1,40 @@
-Hi, I'm Shin Jaewon
-Engineer focused on building reliable backend systems and solving structural problems.
+H# Hi, I'm Shin Jaewon
 
-I approach problems by verifying assumptions, analyzing failure conditions, and designing solutions that remain stable in real operation.
+Engineer interested in building **reliable backend systems** and solving structural problems.
+
+I focus on understanding **why systems fail** and designing solutions that remain stable under real-world constraints.
 
 ---
 
-## 🔹 Main Project
+## Main Project
 
-**CNN-based Manufacturing Defect Detection**
-Recall-sensitive image classification project with reliability-focused evaluation.
+### Manufacturing Defect Detection (Recall-first evaluation)
+
+A CNN-based image classification project that focuses on **reliability under severe class imbalance**.
+
+In manufacturing environments, missing a defective product is far more critical than misclassifying a normal one.  
+This project investigates how common evaluation metrics can become misleading and redesigns the evaluation strategy to prioritize **Recall**.
+
+Key ideas explored:
+
+- Reliability-focused model evaluation
+- Class imbalance analysis
+- Precision / Recall trade-offs
+- Confusion matrix and ROC-based validation
+
+Project Repository  
 https://github.com/hajimoo/cnn-manufacturing-defect
 
 ---
 
+## Current Focus
 
-## 🔹 Current Focus
-
-* Backend fundamentals for stable web services
-* Logging and validation for system reliability
+- Backend fundamentals for stable web services
+- Logging and validation for system reliability
+- Deploying ML models as backend services
 
 ---
 
-## 🔹 Tech Stack
+## Tech
 
-Python | TensorFlow | NumPy | Pandas | Git | GitHub
-
+Python • TensorFlow • NumPy • Pandas • Git
