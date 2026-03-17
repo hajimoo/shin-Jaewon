@@ -1,37 +1,68 @@
-# こんにちは、シン・ジェウォンです
+こんにちは、シン・ジェウォンです。  
+信頼性の高いバックエンドシステムの構築と、構造的な問題の解決に関心を持つエンジニアです。
 
-信頼性の高いバックエンドシステムの構築と、構造的な問題の解決に関心を持つエンジニアです。  
-システムがなぜ失敗するのかを理解し、現実の制約のもとでも安定し続けるソリューションを設計することを大切にしています。
+単にモデルの精度を追求するのではなく、「実際のシステムとして信頼できるか」という観点で設計・実装することを重視しています。
 
 ---
 
 ## メインプロジェクト
 
-### 製造業における欠陥検出（再現率優先評価）
+### 製造業における欠陥検出システム（Recall優先評価）
 
-深刻なクラス不均衡下での信頼性に焦点を当てた、CNNベースの画像分類プロジェクトです。
+深刻なクラス不均衡下において、欠陥の見逃し（False Negative）を最小化することを目的としたCNNベースの画像分類システムを開発しました。
 
-製造現場では、欠陥品を見逃すことは正常品を誤分類することよりはるかに重大なリスクとなります。本プロジェクトでは、一般的な評価指標がいかに誤解を招くかを検証し、再現率（Recall)を優先した評価戦略を再設計しました。
+製造現場では、欠陥品の見逃しは重大なリスクとなるため、本プロジェクトではAccuracyではなくRecallを優先した評価戦略を採用しました。
 
-**主な検討内容：**
+---
 
-- 信頼性を重視したモデル評価
-- クラス不均衡の分析
-- 適合率／再現率のトレードオフ
-- 混同行列およびROCに基づく検証
+### システム構成
 
-**プロジェクトリポジトリ** ：[https://github.com/hajimoo/cnn-manufacturing-defect](https://github.com/hajimoo/cnn-manufacturing-defect)
+React Frontend（UI）
+↓
+FastAPI Backend（推論API）
+↓
+CNN Model（TensorFlow）
+↓
+MySQL（ログ保存）
+
+---
+
+### 主な取り組み
+
+- クラス不均衡データの分析
+- Recall重視の評価指標設計
+- Confusion Matrix / ROCによる検証
+- CNNモデルの学習および評価
+- FastAPIによる推論APIの実装
+- Reactによるフロントエンド開発
+- 推論結果のデータベース保存（MySQL）
+
+---
+
+### プロジェクトリポジトリ
+
+- CNN Model:  
+  https://github.com/hajimoo/cnn-manufacturing-defect  
+
+- Backend API:  
+  https://github.com/hajimoo/defect-detection-api  
+
+- Frontend:  
+  https://github.com/hajimoo/defect-detection-frontend  
 
 ---
 
 ## 現在の取り組み
 
-- 安定したWebサービスのためのバックエンド基礎
-- システム信頼性向上のためのロギングとバリデーション
-- バックエンドサービスとしてのMLモデル展開
+- バックエンド設計（API設計・責務分離）
+- システム信頼性向上のためのロギング設計
+- MLモデルの実運用を前提としたAPI化
+- フロントエンドとバックエンドの統合
 
 ---
 
 ## 技術スタック
 
-Python • TensorFlow • NumPy • Pandas • Git
+Python / FastAPI / TensorFlow / NumPy / Pandas  
+React / Tailwind CSS  
+MySQL / Git
