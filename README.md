@@ -1,68 +1,66 @@
 こんにちは、シン・ジェウォンです。  
-信頼性の高いバックエンドシステムの構築と、構造的な問題の解決に関心を持つエンジニアです。
+バックエンドシステムの信頼性と、構造的な問題の解決に関心を持つエンジニアです。
 
-単にモデルの精度を追求するのではなく、「実際のシステムとして信頼できるか」という観点で設計・実装することを重視しています。
+私は単に技術を使うのではなく、「なぜその問題が起きるのか」「どのような条件でシステムが破綻するのか」を理解した上で設計することを重視しています。
 
 ---
 
 ## メインプロジェクト
 
-### 製造業における欠陥検出システム（Recall優先評価）
+### 欠陥検出システム（Recall重視設計）
 
-深刻なクラス不均衡下において、欠陥の見逃し（False Negative）を最小化することを目的としたCNNベースの画像分類システムを開発しました。
-
-製造現場では、欠陥品の見逃しは重大なリスクとなるため、本プロジェクトではAccuracyではなくRecallを優先した評価戦略を採用しました。
-
----
-
-### システム構成
-
-React Frontend（UI）
-↓
-FastAPI Backend（推論API）
-↓
-CNN Model（TensorFlow）
-↓
-MySQL（ログ保存）
+製造業においては、欠陥の見逃し（False Negative）は重大なリスクになります。  
+しかし、初期に作成したCNNモデルは高いAccuracyを示していたにもかかわらず、実際には欠陥を見逃していることが分かりました。
 
 ---
 
-### 主な取り組み
+## 問題
 
-- クラス不均衡データの分析
-- Recall重視の評価指標設計
-- Confusion Matrix / ROCによる検証
-- CNNモデルの学習および評価
-- FastAPIによる推論APIの実装
-- Reactによるフロントエンド開発
-- 推論結果のデータベース保存（MySQL）
+- Accuracyが高くても信頼できない  
+- クラス不均衡により評価が歪んでいる  
 
 ---
 
-### プロジェクトリポジトリ
+## 試行錯誤
 
-- CNN Model:  
-  https://github.com/hajimoo/cnn-manufacturing-defect  
-
-- Backend API:  
-  https://github.com/hajimoo/defect-detection-api  
-
-- Frontend:  
-  https://github.com/hajimoo/defect-detection-frontend  
+当初はAccuracyを改善する方向でモデルを調整していましたが、  
+Confusion Matrixを確認する中で「欠陥を見逃している」という問題に気づきました。
 
 ---
 
-## 現在の取り組み
+## 判断と設計変更
 
-- バックエンド設計（API設計・責務分離）
-- システム信頼性向上のためのロギング設計
-- MLモデルの実運用を前提としたAPI化
-- フロントエンドとバックエンドの統合
+この問題に対して、評価指標をAccuracyからRecall中心へ変更しました。  
+これは「欠陥を見逃さない」ことを最優先とするためです。
 
 ---
 
-## 技術スタック
+## 実装
 
-Python / FastAPI / TensorFlow / NumPy / Pandas  
-React / Tailwind CSS  
-MySQL / Git
+この設計を検証するために、モデル単体ではなくシステムとして実装しました。
+
+- CNNモデルの学習と評価  
+- FastAPIによる推論APIの構築  
+- 推論結果のMySQL保存  
+- Reactによるフロントエンド実装  
+
+---
+
+## 学んだこと
+
+- 指標の選択によってモデルの評価は大きく変わる  
+- MLはモデル単体ではなく、システムとして設計する必要がある  
+- 実運用ではログと可視化が重要  
+
+---
+
+## リポジトリ
+
+- CNN Model  
+https://github.com/hajimoo/cnn-manufacturing-defect  
+
+- Backend API  
+https://github.com/hajimoo/defect-detection-api  
+
+- Frontend  
+https://github.com/hajimoo/defect-detection-frontend  
