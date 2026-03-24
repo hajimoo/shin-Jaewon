@@ -63,4 +63,6 @@ https://github.com/hajimoo/cnn-manufacturing-defect
 https://github.com/hajimoo/defect-detection-api  
 
 - Frontend  
-https://github.com/hajimoo/defect-detection-frontend  
+https://github.com/hajimoo/defect-detection-frontend
+- DataBase
+  https://github.com/hajimoo/ai-defect-detection-db
